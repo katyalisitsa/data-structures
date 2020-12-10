@@ -22,8 +22,15 @@ public class MyHeap {
         int index = size - 1;
         while (index > 0 && heap[index] > heap[parent(index)]) {
             swap(index, parent(index));
+            index = parent(index);
 
         }
+    }
+
+    private void swap(int first, int second) {
+        var temp = heap[first];
+        heap[first] = heap[second];
+        heap[second] = temp;
     }
 
 }
