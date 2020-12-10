@@ -33,4 +33,10 @@ public class MyHeap {
         heap[second] = temp;
     }
 
+    public void print() {
+        for (int i = 0; i < size; i++) {
+            System.out.println(heap[i] + ", ");
+        }
+    }
+
 }
