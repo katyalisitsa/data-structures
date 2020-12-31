@@ -11,8 +11,11 @@ public class SearchMainApp {
         //var myBinarySearchIterative = new MyBinarySearchIterative();
         //System.out.println("Iterative Bin Search: " + myBinarySearchIterative.binSearchIterative(myarray, 120));
 
-        var myTernarySearch = new MyTernarySearch();
-        System.out.println("Ternary search: " + myTernarySearch.ternarySearch(myarray, 100));
+        //var myTernarySearch = new MyTernarySearch();
+        //System.out.println("Ternary search: " + myTernarySearch.ternarySearch(myarray, 100));
+
+        var myJumpSearch = new MyJumpSearch();
+        System.out.println(("Jump Search: " + myJumpSearch.jumpSearch(myarray, 100)));
 
 
     }
