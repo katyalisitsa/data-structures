@@ -6,16 +6,19 @@ public class SearchMainApp {
         System.out.println("Linear Search : " + mylinearsearch.linearSearch(myarray, 112));
 
         var myBinarySearchRec = new MyBinarySearchRecursive();
-        System.out.println("Rec Bin Search: " + myBinarySearchRec.binarySearchRec(myarray, 112));
+        System.out.println("Recursive Binary Search: " + myBinarySearchRec.binarySearchRec(myarray, 112));
 
         var myBinarySearchIterative = new MyBinarySearchIterative();
-        System.out.println("Iterative Bin Search: " + myBinarySearchIterative.binSearchIterative(myarray, 120));
+        System.out.println("Iterative Binary Search: " + myBinarySearchIterative.binSearchIterative(myarray, 120));
 
         var myTernarySearch = new MyTernarySearch();
         System.out.println("Ternary search: " + myTernarySearch.ternarySearch(myarray, 100));
 
         var myJumpSearch = new MyJumpSearch();
         System.out.println(("Jump Search: " + myJumpSearch.jumpSearch(myarray, 100)));
+
+        var myExpSearch = new MyExponentialSearch();
+        System.out.println("Exp search: " + myExpSearch.exponentialSearch(myarray, 1));
 
 
     }
