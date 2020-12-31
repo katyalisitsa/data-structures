@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/DataStructures-07-Heap/DataStructures-07-Heap.iml" filepath="$PROJECT_DIR$/DataStructures-07-Heap/DataStructures-07-Heap.iml" />
       <module fileurl="file://$PROJECT_DIR$/DataStructures-08-Graphs/DataStructures-08-Graphs.iml" filepath="$PROJECT_DIR$/DataStructures-08-Graphs/DataStructures-08-Graphs.iml" />
       <module fileurl="file://$PROJECT_DIR$/DataStructures-09-Sorting/DataStructures-09-Sorting.iml" filepath="$PROJECT_DIR$/DataStructures-09-Sorting/DataStructures-09-Sorting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DataStructures-10-SearchArgorithms/DataStructures-10-SearchArgorithms.iml" filepath="$PROJECT_DIR$/DataStructures-10-SearchArgorithms/DataStructures-10-SearchArgorithms.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/data-structures.iml" filepath="$PROJECT_DIR$/.idea/data-structures.iml" />
     </modules>
   </component>
