@@ -8,7 +8,7 @@ public class MyTernarySearch {
         if (right < left) return -1; //Base condition
         int partition = (right - left) / 3;
         int middle1 = left + partition;
-        int middle2 = right - partiton;
+        int middle2 = right - partition;
 
         if (array[middle1] == data) return middle1;
         if (array[middle2] == data) return middle2;
@@ -16,6 +16,6 @@ public class MyTernarySearch {
         if (data < array[middle1]) return ternarySearch(array, data, left, middle1 - 1);
         if (data > array[middle2]) return ternarySearch(array, data, left, middle2 - 1);
 
-        return ternarySearch(array, data, middle1 + 1, middle2-1);//middle partition
+        return ternarySearch(array, data, middle1 + 1, middle2 - 1);//middle partition
     }
 }
