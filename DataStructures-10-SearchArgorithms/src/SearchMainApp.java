@@ -8,8 +8,11 @@ public class SearchMainApp {
         //var myBinarySearchRec = new MyBinarySearchRecursive();
         //System.out.println("Rec Bin Search: " + myBinarySearchRec.binarySearchRec(myarray, 112));
 
-        var myBinarySearchIterative = new MyBinarySearchIterative();
-        System.out.println("Iterative Bin Search: " + myBinarySearchIterative.binSearchIterative(myarray, 120));
+        //var myBinarySearchIterative = new MyBinarySearchIterative();
+        //System.out.println("Iterative Bin Search: " + myBinarySearchIterative.binSearchIterative(myarray, 120));
+
+        var myTernarySearch = new MyTernarySearch();
+        System.out.println("Ternary search: " + myTernarySearch.ternarySearch(myarray, 120));
 
 
     }
